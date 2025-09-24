@@ -1,0 +1,92 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar simple */
+.navbar-brand {
+  font-size: 1.3rem;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #000 !important;
+}
+
+.nav-link.active {
+  color: #000 !important;
+}
+
+/* Cards simples */
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  font-weight: 600;
+}
+
+/* Botones simples */
+.btn {
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Tablas limpias */
+.table {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: 600;
+}
+
+/* Formularios limpios */
+.form-control {
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.1);
+}
+
+/* Espaciados consistentes */
+.container {
+  max-width: 1200px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .table-responsive {
+    font-size: 0.9rem;
+  }
+}
