@@ -31,7 +31,7 @@ Permite agregar, editar y eliminar elementos, con listas dinámicas y formulario
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/media-manager.git
+git clone https://github.com/09X17/peliculas-frontend.git
 cd peliculas-frontend
 ````
 
